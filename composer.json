@@ -3,6 +3,8 @@
     "description": "Icons package for Laravel applications based on IBM Carbon compatibility",
     "type": "library",
     "license": "AGPL-3.0-only",
+    "prefer-stable": true,
+    "minimum-stability": "dev",
     "authors": [
         {
             "name": "Akkurate",
