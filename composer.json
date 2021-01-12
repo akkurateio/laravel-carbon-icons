@@ -1,0 +1,75 @@
+{
+    "name": "akkurate/laravel-carbon-icons",
+    "description": "Icons package for Laravel applications based on IBM Carbon compatibility",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Akkurate",
+            "email": "hello@subvitamine.com",
+            "homepage": "https://www.akkurate.io",
+            "role": "Company"
+        }
+    ],
+    "support": {
+        "docs": "https://github.com/akkurateio/documentation"
+    },
+    "require": {
+        "spatie/laravel-image-optimizer": "^1.6",
+        "ext-dom": "*",
+        "akkurate/laravel-back-components": "^2.0",
+        "akkurate/laravel-core": "^2.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.0",
+        "orchestra/testbench": "^6.0"
+    },
+    "autoload" : {
+        "psr-4": {
+            "Akkurate\\LaravelCarbonIcons\\": "src"
+        },
+        "files": [
+            "helpers.php"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Akkurate\\LaravelCarbonIcons\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Akkurate\\LaravelCarbonIcons\\LaravelCarbonIconsServiceProvider"
+            ]
+        }
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@bitbucket.org:subvitaminetm/laravel-core.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@bitbucket.org:subvitaminetm/laravel-back-components.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@bitbucket.org:subvitaminetm/laravel-media.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@bitbucket.org:subvitaminetm/laravel-contact.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@bitbucket.org:subvitaminetm/laravel-auth.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@bitbucket.org:subvitaminetm/laravel-search.git"
+        }
+    ]
+}
