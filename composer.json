@@ -19,8 +19,8 @@
     "require": {
         "spatie/laravel-image-optimizer": "^1.6",
         "ext-dom": "*",
-        "akkurateio/laravel-back-components": "^0.1",
-        "akkurateio/laravel-core": "^0.1"
+        "akkurateio/laravel-back-components": "0.x-dev",
+        "akkurateio/laravel-core": "0.x-dev"
     },
     "require-dev": {
         "phpunit/phpunit": "^9.0",
